@@ -24,4 +24,4 @@ class Usa(Resource):
 api.add_resource(Usa, "/first/ua")
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5005)
+    app.run(debug=True)
