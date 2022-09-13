@@ -13,7 +13,9 @@ class User_agent(Resource):
 		get_user_agent = user_agent.random
 		return ({
 			'status': 'success',
-			'user_agent_random': get_user_agent
+			'user_agent_random': get_user_agent,
+			'developer': 'Ammar-Executed',
+			'github_admin': 'https://github.com/AmmarrBN'
 		})
 api.add_resource(User_agent,"/api/user-agent-random")
 
